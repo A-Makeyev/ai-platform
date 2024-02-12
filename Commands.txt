@@ -8,6 +8,7 @@ import alias -> No
 
 npx shadcn-ui@latest init
 npx shadcn-ui@latest add button
+npx shadcn-ui@latest add sheet
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -15,6 +16,8 @@ npm install @clerk/nextjs
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+npm install npm -g
+npm install
 npm run dev
 
 
