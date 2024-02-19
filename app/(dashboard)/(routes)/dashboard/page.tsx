@@ -7,7 +7,7 @@ import { ArrowRight, Code, ImageIcon, MessageSquare, Music, VideoIcon } from "lu
 
 const tools = [
   {
-    href: '/Conversation',
+    href: '/conversation',
     label: 'Conversation',
     color: 'text-violet-500',
     bgColor: 'bg-violet-500/10',
@@ -71,8 +71,8 @@ export default function DashboardPage() {
               <div className="font-semibold">
                 {tool.label}
               </div>
-              <ArrowRight className="w-5 h-5" />
             </div>
+            <ArrowRight className="w-5 h-5" />
           </Card>
         ))}
       </div>
